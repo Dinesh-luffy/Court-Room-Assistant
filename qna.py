@@ -9,7 +9,7 @@ JSON_FILE_PATH = "data/core_knowledge_base/constitution_qa.json"
 
 def main():
     if not os.path.exists(JSON_FILE_PATH):
-        print(f"⚠️ Error: The file {JSON_FILE_PATH} was not found.")
+        print(f"⚠️ Error: The file {JSON_FILE_PATH} wasn't found.")
         return
 
     print(f"⏳ Processing JSON file: {JSON_FILE_PATH}")
