@@ -1,0 +1,26 @@
+# Core NLP + Embeddings
+sentence-transformers
+transformers
+torch
+numpy
+pandas
+
+# Text cleaning & parsing
+beautifulsoup4
+regex
+
+# Vector search (optional, depending on your rag.py)
+faiss-cpu
+
+# Environment variables
+python-dotenv
+
+# Utility
+tqdm
+
+# If you use LangChain (some RAG setups depend on this)
+langchain
+langchain-community
+
+# HTTP requests (if any script calls external APIs)
+requests
