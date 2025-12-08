@@ -140,7 +140,7 @@ Install via `requirements.txt` (plus ensure **Ollama** is installed with `deepse
 * pandas
 * numpy
 * python-dotenv
-* langchain (if used)
+* langchain 
 
 ---
 
