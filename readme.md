@@ -144,10 +144,5 @@ Install via `requirements.txt` (plus ensure **Ollama** is installed with `deepse
 
 ---
 
-## 📜 License
 
-You can add MIT, Apache-2.0, or any license you prefer.
 
----
-
-If you want, I can also create a **logo**, **badges**, or **GitHub Actions CI setup** for your repo.
