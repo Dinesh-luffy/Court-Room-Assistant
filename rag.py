@@ -45,7 +45,7 @@ def store_in_faiss(chunks: list[str], db_path: str):
     else:
         db = FAISS.from_texts(chunks, embedding_model)
     db.save_local(db_path)
-    print(f"✅ Stored {len(chunks)} chunks in FAISS DB at {db_path}.")
+    print(f"Stored {len(chunks)} chunks in FAISS DB at {db_path}.")
 
 def retrieve_context(query: str, db_path: str, top_k: int = 3) -> str:
     """Searches a specific FAISS database and returns the most relevant text chunks."""
