@@ -95,7 +95,7 @@ Answer concisely with proper legal context, sections, or process explanation.
                        .replace("</think>", "")
                        .strip()
         )
-        return answer_text or "⚠️ No response generated."
+        return answer_text or "No response generated."
     except Exception as e:
-        print("⚠️ Error generating response:", e)
-        return "⚠️ No response from LLM."
+        print(" Error generating response:", e)
+        return "No response from LLM."
