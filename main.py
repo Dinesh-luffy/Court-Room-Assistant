@@ -25,7 +25,7 @@ def get_voice_input():
         audio = r.listen(source)
     try:
         text = r.recognize_google(audio)
-        print(f"✅ Recognized: {text}")
+        print(f" Recognized: {text}")
         return text
     except sr.UnknownValueError:
         print("⚠️ Could not understand audio. Please try again.")
